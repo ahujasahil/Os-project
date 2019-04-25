@@ -41,5 +41,5 @@ int main()
     pthread_join(t1,NULL); 
     pthread_join(t2,NULL);  
     sem_destroy(&s1); 
-    return 0; 
+    
 }
